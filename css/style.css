@@ -1,0 +1,46 @@
+.letra-navbar{
+    font-size: 20px;
+    color: rgb(41, 41, 41);
+}
+
+.img-carrousel {
+    width: 1685px;
+    height: 750px;
+    background-size: cover;
+}
+
+.img-producto {
+    width: 280px;
+    height: 250px;
+}
+
+.letra-producto {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+:root {
+    --color-verde-claro: rgb(229, 236, 150);
+    --color-verde-oscuro: rgb(61, 90, 35);
+}
+
+.color-verde {
+    background: var(--color-verde-claro);
+}
+
+.color-verde-oscuro {
+    color: var(--color-verde-oscuro);
+}
+
+.borde {
+    border: 1px solid var(--color-verde-oscuro);
+    border-radius: 0px;
+}
+
+.fondo {
+    background: var(--color-verde-oscuro);
+    color: white;
+    width: 100%;
+    border-radius: 0%;
+}
