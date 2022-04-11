@@ -54,7 +54,7 @@
 /*rgb(178, 194, 1)*/
 
 .col-izq {
-    background-image: url(/img/fondo-perfil2.png);
+    background-image: url(../img/fondo-perfil2.png);
     color: white;
 
 
@@ -90,5 +90,5 @@ h6 {
 
 .modal-producto {
     width: 750px;
-    
+
 }
