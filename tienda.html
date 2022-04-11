@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +11,13 @@
     <script src="https://kit.fontawesome.com/32f46886f2.js" crossorigin="anonymous"></script>
 
 
-    <title>Perros veganos</title>
+    <title>Tienda</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-sm letra-navbar navbar-light borde pr-5">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" style="width: 50px;"></a>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" style="width: 50px;"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,7 +30,7 @@
                         <a class="nav-link" href="tienda.html"><i class="fa-solid fa-shop"></i> Tienda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i> Log In</a>
+                        <a class="nav-link" href="login.html"><i class="fa-solid fa-user"></i> Login</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link pr-5" href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
@@ -39,341 +41,555 @@
     </nav>
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-2 bg-light" style="min-height: 80vh;">
-                <a class="nav-link text-dark"  href="#" >Perros</a>
-                <a class="nav-link text-dark"  href="#" >Gatos</a>
-                <a class="nav-link text-dark"  href="#" >Erizos</a>
+        <div class="row pb-5">
+            <div class="col-sm-2" style="min-height: 80vh;">
             </div>
 
-            <div class="col-sm-10 pt-2 pl-5 text-white">
+            <div class="col-sm-8 pt-2 pl-5 text-white">
                 <div class="row d-flex">
-                    <div class="col-sm-4">
-                        <img class="img-producto" src="img/producto5.png"  alt="">
+                    <div class="col-sm-6 text-center pt-4">
+                        <img class="img-producto" src="img/producto5.png" alt="">
                         <hr>
-                        <h3 class="color-verde-oscuro">
+                        <h3 class="color-verde-oscuro text-center">
                             Bandana azul marino
                         </h3>
-                        <h5 class="color-verde-oscuro">
+                        <h5 class="color-verde-oscuro text-center">
                             <i class="fa-solid fa-dollar-sign"></i> 16.490
                         </h5>
                         <br>
-                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar al carrito</a>
+                        <a href="#" class="btn fondo" role="button" data-toggle="modal"
+                            data-target="#modal-bandana">Agregar
+                            al carrito</a>
+
+                        <img class="img-producto" src="img/producto9.png" alt="">
+                        <hr>
+                        <h3 class="color-verde-oscuro text-center">
+                            Placa identificación dorada
+                        </h3>
+                        <h5 class="color-verde-oscuro text-center">
+                            <i class="fa-solid fa-dollar-sign"></i> 17.990
+                        </h5>
+                        <br>
+                        <a href="#" class="btn fondo" role="button" data-toggle="modal"
+                            data-target="#modal-medalla">Agregar
+                            al carrito</a>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-6 text-center pt-4">
                         <img class="img-producto" src="img/producto8.png" alt="">
                         <hr>
-                        <h3 class="color-verde-oscuro">
+                        <h3 class="color-verde-oscuro text-center">
                             Correa escocesa verde
                         </h3>
-                        <h5 class="color-verde-oscuro">
-                            <i class="fa-solid fa-dollar-sign"></i> 17.990 
+                        <h5 class="color-verde-oscuro text-center">
+                            <i class="fa-solid fa-dollar-sign"></i> 17.990
                         </h5>
                         <br>
-                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar al carrito</a>
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="img-producto" src="img/producto9.png" alt="">
+                        <a href="#" class="btn fondo" role="button" data-toggle="modal"
+                            data-target="#modal-correa">Agregar
+                            al carrito</a>
+
+                        <img class="img-producto justify-content-center" src="img/producto10.png" alt="">
                         <hr>
-                        <h3 class="color-verde-oscuro">
-                            Correa escocesa verde
+                        <h3 class="color-verde-oscuro text-center">
+                            Arnés pechera rojo
                         </h3>
-                        <h5 class="color-verde-oscuro">
-                            <i class="fa-solid fa-dollar-sign"></i> 17.990 
+                        <h5 class="color-verde-oscuro text-center">
+                            <i class="fa-solid fa-dollar-sign"></i> 17.990
                         </h5>
                         <br>
-                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar al carrito</a>
+                        <a href="#" class="btn fondo" role="button" data-toggle="modal"
+                            data-target="#modal-arnes">Agregar
+                            al carrito</a>
                     </div>
-                    <div class="col-sm-4">
-                        <img class="img-producto" src="img/producto9.png" alt="">
+                    <div class="col-sm-6 text-center pt-4">
+                        <img class="img-producto" src="img/idgato1.png" alt="">
                         <hr>
-                        <h3 class="color-verde-oscuro">
-                            Correa escocesa verde
+                        <h3 class="color-verde-oscuro text-center">
+                            Placa pescado azul
                         </h3>
-                        <h5 class="color-verde-oscuro">
-                            <i class="fa-solid fa-dollar-sign"></i> 17.990 
+                        <h5 class="color-verde-oscuro text-center">
+                            <i class="fa-solid fa-dollar-sign"></i> 17.990
                         </h5>
                         <br>
-                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar al carrito</a>
+                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar
+                            al carrito</a>
+
+                        <img class="img-producto justify-content-center pt-5" src="img/idperro1.png" alt="">
+                        <hr>
+                        <h3 class="color-verde-oscuro text-center">
+                            Placa hueso verde
+                        </h3>
+                        <h5 class="color-verde-oscuro text-center">
+                            <i class="fa-solid fa-dollar-sign"></i> 17.990
+                        </h5>
+                        <br>
+                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar
+                            al carrito</a>
                     </div>
-                    <div class="col-sm-4">
-                        <img class="img-producto" src="img/producto9.png" alt="">
+                    <div class="col-sm-6 text-center pt-4">
+                        <img class="img-producto" src="img/arneshamster.png" alt="">
                         <hr>
-                        <h3 class="color-verde-oscuro">
-                            Correa escocesa verde
+                        <h3 class="color-verde-oscuro text-center">
+                            Arnés hamster rosado
                         </h3>
-                        <h5 class="color-verde-oscuro">
-                            <i class="fa-solid fa-dollar-sign"></i> 17.990 
+                        <h5 class="color-verde-oscuro text-center">
+                            <i class="fa-solid fa-dollar-sign"></i> 17.990
                         </h5>
                         <br>
-                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar al carrito</a>
+                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar
+                            al carrito</a>
+
+                        <img class="img-producto justify-content-center pt-5" src="img/producto6.png" alt="">
+                        <hr>
+                        <h3 class="color-verde-oscuro text-center">
+                            Bandana amarilla
+                        </h3>
+                        <h5 class="color-verde-oscuro text-center">
+                            <i class="fa-solid fa-dollar-sign"></i> 17.990
+                        </h5>
+                        <br>
+                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar
+                            al carrito</a>
                     </div>
-                    <div class="col-sm-4">
-                        <img class="img-producto" src="img/producto9.png" alt="">
+                    <div class="col-sm-6 text-center pt-4">
+                        <img class="img-producto pt-4" src="img/producto7.png" alt="">
                         <hr>
-                        <h3 class="color-verde-oscuro">
-                            Correa escocesa verde
+                        <h3 class="color-verde-oscuro text-center">
+                            Bandana "Los Simpsons"
                         </h3>
-                        <h5 class="color-verde-oscuro">
-                            <i class="fa-solid fa-dollar-sign"></i> 17.990 
+                        <h5 class="color-verde-oscuro text-center">
+                            <i class="fa-solid fa-dollar-sign"></i> 17.990
                         </h5>
                         <br>
-                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar al carrito</a>
+                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar
+                            al carrito</a>
+
+                        <img class="img-producto justify-content-center" src="img/bandanagato.png" alt="">
+                        <hr>
+                        <h3 class="color-verde-oscuro text-center">
+                            Set 3 piezas escocés rojo
+                        </h3>
+                        <h5 class="color-verde-oscuro text-center">
+                            <i class="fa-solid fa-dollar-sign"></i> 17.990
+                        </h5>
+                        <br>
+                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar
+                            al carrito</a>
                     </div>
-                    <div class="col-sm-4">
-                        <img class="img-producto" src="img/producto9.png" alt="">
+                    <div class="col-sm-6 text-center pt-4">
+                        <img class="img-producto pt-4" src="img/correaperro.png" alt="">
                         <hr>
-                        <h3 class="color-verde-oscuro">
-                            Correa escocesa verde
+                        <h3 class="color-verde-oscuro text-center">
+                            correa calipso Xl
                         </h3>
-                        <h5 class="color-verde-oscuro">
-                            <i class="fa-solid fa-dollar-sign"></i> 17.990 
+                        <h5 class="color-verde-oscuro text-center">
+                            <i class="fa-solid fa-dollar-sign"></i> 17.990
                         </h5>
                         <br>
-                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar al carrito</a>
-                    </div><div class="col-sm-4">
-                        <img class="img-producto" src="img/producto9.png" alt="">
+                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar
+                            al carrito</a>
+
+                        <img class="img-producto justify-content-center pt-4" src="img/correagato.png" alt="">
                         <hr>
-                        <h3 class="color-verde-oscuro">
-                            Correa escocesa verde
+                        <h3 class="color-verde-oscuro text-center">
+                            Correa gato multicolor
                         </h3>
-                        <h5 class="color-verde-oscuro">
-                            <i class="fa-solid fa-dollar-sign"></i> 17.990 
+                        <h5 class="color-verde-oscuro text-center">
+                            <i class="fa-solid fa-dollar-sign"></i> 17.990
                         </h5>
                         <br>
-                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar al carrito</a>
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="img-producto" src="img/producto9.png" alt="">
-                        <hr>
-                        <h3 class="color-verde-oscuro">
-                            Correa escocesa verde
-                        </h3>
-                        <h5 class="color-verde-oscuro">
-                            <i class="fa-solid fa-dollar-sign"></i> 17.990 
-                        </h5>
-                        <br>
-                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar al carrito</a>
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="img-producto" src="img/producto9.png" alt="">
-                        <hr>
-                        <h3 class="color-verde-oscuro">
-                            Correa escocesa verde
-                        </h3>
-                        <h5 class="color-verde-oscuro">
-                            <i class="fa-solid fa-dollar-sign"></i> 17.990 
-                        </h5>
-                        <br>
-                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar al carrito</a>
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="img-producto" src="img/producto9.png" alt="">
-                        <hr>
-                        <h3 class="color-verde-oscuro">
-                            Correa escocesa verde
-                        </h3>
-                        <h5 class="color-verde-oscuro">
-                            <i class="fa-solid fa-dollar-sign"></i> 17.990 
-                        </h5>
-                        <br>
-                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar al carrito</a>
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="img-producto" src="img/producto9.png" alt="">
-                        <hr>
-                        <h3 class="color-verde-oscuro">
-                            Correa escocesa verde
-                        </h3>
-                        <h5 class="color-verde-oscuro">
-                            <i class="fa-solid fa-dollar-sign"></i> 17.990 
-                        </h5>
-                        <br>
-                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar al carrito</a>
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="img-producto" src="img/producto9.png" alt="">
-                        <hr>
-                        <h3 class="color-verde-oscuro">
-                            Correa escocesa verde
-                        </h3>
-                        <h5 class="color-verde-oscuro">
-                            <i class="fa-solid fa-dollar-sign"></i> 17.990 
-                        </h5>
-                        <br>
-                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar al carrito</a>
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="img-producto" src="img/producto9.png" alt="">
-                        <hr>
-                        <h3 class="color-verde-oscuro">
-                            Correa escocesa verde
-                        </h3>
-                        <h5 class="color-verde-oscuro">
-                            <i class="fa-solid fa-dollar-sign"></i> 17.990 
-                        </h5>
-                        <br>
-                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar al carrito</a>
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="img-producto" src="img/producto9.png" alt="">
-                        <hr>
-                        <h3 class="color-verde-oscuro">
-                            Correa escocesa verde
-                        </h3>
-                        <h5 class="color-verde-oscuro">
-                            <i class="fa-solid fa-dollar-sign"></i> 17.990 
-                        </h5>
-                        <br>
-                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar al carrito</a>
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="img-producto" src="img/producto9.png" alt="">
-                        <hr>
-                        <h3 class="color-verde-oscuro">
-                            Correa escocesa verde
-                        </h3>
-                        <h5 class="color-verde-oscuro">
-                            <i class="fa-solid fa-dollar-sign"></i> 17.990 
-                        </h5>
-                        <br>
-                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar al carrito</a>
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="img-producto" src="img/producto9.png" alt="">
-                        <hr>
-                        <h3 class="color-verde-oscuro">
-                            Correa escocesa verde
-                        </h3>
-                        <h5 class="color-verde-oscuro">
-                            <i class="fa-solid fa-dollar-sign"></i> 17.990 
-                        </h5>
-                        <br>
-                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar al carrito</a>
-                    </div>
-                    <div class="col-sm-4">
-                        <img class="img-producto" src="img/producto9.png" alt="">
-                        <hr>
-                        <h3 class="color-verde-oscuro">
-                            Correa escocesa verde
-                        </h3>
-                        <h5 class="color-verde-oscuro">
-                            <i class="fa-solid fa-dollar-sign"></i> 17.990 
-                        </h5>
-                        <br>
-                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar al carrito</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 mt-5 mb-5 ">
-                        <a href="#" class="btn fondo" style="width: 10%;" role="button">Ir a Tienda</a>
+                        <a href="#" class="btn fondo" role="button" data-toggle="modal" data-target="#myModal">Agregar
+                            al carrito</a>
                     </div>
                 </div>
             </div>
+            <div class="col-sm-2" style="min-height: 80vh;">
+            </div>
         </div>
-        </div>
-
-      
-        
-    
 
 
 
-
-<!-- The Modal -->
-<div class="modal fade" id="myModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-      
-        <div class="modal-header">
-          <h4 class="modal-title">Tu Carrito</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        
-        <div class="modal-body">
-          Modal body..
-        </div>
-        
-        <div class="modal-footer">
-            <button type="button" class="btn btn-success" data-dismiss="modal">Pagar</button>
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Refrescar</button>
-          <button type="button" class="btn btn-ligth" data-dismiss="modal">Cerrar</button>
-        </div>
-        
-      </div>
     </div>
-  </div>
-  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-     <div class="col-sm-12 borde">
-            <div class="row text-center">       
-            <div class="col-sm-4">
-                <nav class="navbar navbar-light flex-column">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active mt-4">
-                        <a class="nav-link" href="#">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">TIENDA</a>
-                        </li>
-                        <li class="nav-item">
-                         <a class="nav-link" href="#"></a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
-                        </li>
-                    </ul>
+    <div class="row">
+        <div class="col-sm-12 borde">
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <nav class="navbar navbar-light flex-column">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active mt-4">
+                                <a class="nav-link" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tienda.html">TIENDA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html">LOGIN</a>
+                            </li>
+                        </ul>
                     </nav>
-             </div>
-            <div class="col-sm-4">
+                </div>
+                <div class="col-sm-4">
                     <br><br>
-                <h3>Contáctanos</h3>
-                <h5><i class="fa-solid fa-phone"></i> 123-456-789</h5>
-                <h5><i class="fa-brands fa-whatsapp"></i> 978-654-321</h5>
-                <h5><i class="fa-solid fa-at"></i> info@my-domain.com</h5>
-             </div>
-            <div class="col-sm-4">
-                <br><br>
-                <h3 class="color-verde-oscuro">Nuestras redes sociales</h3>
-                <div class="d-flex justify-content-center ">
-                    <a class="mr-3 mb-5 mt-3 color-verde-oscuro"  href=""><i class="fa-brands fa-instagram"></i><br> Instagram</a>
-                    <a class="ml-3 mr-3 mb-5 mt-3 color-verde-oscuro" href=""><i class="fa-brands fa-facebook"></i><br> Facebook</a>
-                    <a class="ml-3 mb-5 mt-3 color-verde-oscuro" href=""><i class="fa-brands fa-twitter"></i><br> Twitter</a>
-                 </div>
+                    <h3>Contáctanos</h3>
+                    <h5><i class="fa-solid fa-phone"></i> 123-456-789</h5>
+                    <h5><i class="fa-brands fa-whatsapp"></i> 978-654-321</h5>
+                    <h5><i class="fa-solid fa-at"></i> info@my-domain.com</h5>
+                </div>
+                <div class="col-sm-4">
+                    <br><br>
+                    <h3 class="color-verde-oscuro">Nuestras redes sociales</h3>
+                    <div class="d-flex justify-content-center ">
+                        <a class="mr-3 mb-5 mt-3 color-verde-oscuro" href=""><i class="fa-brands fa-instagram"></i><br>
+                            Instagram</a>
+                        <a class="ml-3 mr-3 mb-5 mt-3 color-verde-oscuro" href=""><i
+                                class="fa-brands fa-facebook"></i><br> Facebook</a>
+                        <a class="ml-3 mb-5 mt-3 color-verde-oscuro" href=""><i class="fa-brands fa-twitter"></i><br>
+                            Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title">Tu Carrito</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <!--<img src="img/producto6.png" alt="" height="200px" > <h3>Bandana</h3>-->
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="img/producto5.png" alt="" height="200px">
+                        </div>
+                        <div class="col-sm 6">
+                            <h3>Bandana Azul Marino</h3>
+                            <h6>$16.490</h6>
+                            <h6>Talla</h6>
+                            <form>
+                                <select name="talla" class="custom-select">
+                                    <option selected>Seleccionar</option>
+                                    <option value="volvo">S</option>
+                                    <option value="fiat">M</option>
+                                    <option value="audi">L</option>
+                                    <option value="audi">XL</option>
+                                </select>
+                                <br>
+                                <!--<h6 class="mt-3">Cantidad</h6>
+                    <input type="text" class="form-control" id="cant">-->
+                                <label for="Quantity-product-template">Cantidad</label>
+                                <input type="number" id="Quantity-product-template" name="quantity" value="1" min="1"
+                                    pattern="[0-9]*" class="product-form__input product-form__input--quantity"
+                                    data-quantity-input>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <a href="#" class="btn fondo" role="button" data-dismiss="modal" data-toggle="modal"
+                        data-target="#myModal2">Agregar al carrito</a>
+                </div>
+
             </div>
         </div>
     </div>
-                
-</div>
+
+
+    <div class="modal fade" id="myModal2">
+        <div class="modal-dialog">
+            <div class="modal-content modal-carrito">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Modal Heading</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Modal body..
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Bandana-->
+    <div class="modal fade" id="modal-bandana">
+        <div class="modal-dialog">
+            <div class="modal-content modal-producto">
+
+                <div class="modal-header">
+                    <h4 class="modal-title">Tu Carrito</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="img/producto5.png" alt="" height="300px">
+                        </div>
+                        <div class="col-sm 6 text-center">
+                            <h3>Bandana Azul Marino</h3>
+                            <h6>$16.490</h6>
+                            <h6 class="mb-2 mt-3">Talla</h6>
+                            <form>
+                                <select name="talla" class="custom-select ">
+                                    <option selected>Seleccionar</option>
+                                    <option value="">XS</option>
+                                    <option value="">S</option>
+                                    <option value="">M</option>
+                                    <option value="">L</option>
+                                </select>
+                                <br>
+                                <h6 class="mb-2 mt-3">Cantidad</h6>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <button class="btn btn-success" type="button" id="boton2">-</button>
+                                    </div>
+                                    <input type="text" id="mostrador" class="form-control text-center" placeholder="0">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-success" type="button" id="boton1">+</button>
+                                    </div>
+                                </div>
+                                <p class="mt-4">Collar con bandana ajustable, el pañuelo se puede poner y quitar
+                                    fácilmente.</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Añadir al carrito</button>
+                    <button type="button" class="btn btn-outline-success" data-dismiss="modal">Comprar ahora</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Medalla-->
+    <div class="modal fade" id="modal-medalla">
+        <div class="modal-dialog">
+            <div class="modal-content modal-producto">
+
+                <div class="modal-header">
+                    <h4 class="modal-title">Tu Carrito</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="img/producto9.png" alt="" height="300px">
+                        </div>
+                        <div class="col-sm 6 text-center">
+                            <h3>Correa escocesa verde</h3>
+                            <h6><i class="fa-solid fa-dollar-sign"></i> 17.990</h6>
+                            <form>
+                                <br>
+                                <h6 class="mb-3">Cantidad</h6>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <button class="btn btn-success" type="button" id="boton6">-</button>
+                                    </div>
+                                    <input type="text" id="mostrador3" class="form-control text-center" placeholder="0">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-success" type="button" id="boton5">+</button>
+                                    </div>
+                                </div>
+                                <p class="mt-4">Chapita de identificación metálica con enchapado color dorado.</p>
+                                <p>Puedes poner el nombre de tu mascota por un lado y el número telefónicos por el otro.
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Añadir al carrito</button>
+                    <button type="button" class="btn btn-outline-success" data-dismiss="modal">Comprar ahora</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Correa-->
+    <div class="modal fade" id="modal-correa">
+        <div class="modal-dialog">
+            <div class="modal-content modal-producto">
+
+                <div class="modal-header">
+                    <h4 class="modal-title">Tu Carrito</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="img/producto8.png" alt="" height="300px">
+                        </div>
+                        <div class="col-sm 6 text-center">
+                            <h3>Correa escocesa verde</h3>
+                            <h6><i class="fa-solid fa-dollar-sign"></i> 17.990</h6>
+                            <form>
+                                <br>
+                                <h6 class="mb-3">Cantidad</h6>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <button class="btn btn-success" type="button" id="boton4">-</button>
+                                    </div>
+                                    <input type="text" id="mostrador2" class="form-control text-center" placeholder="0">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-success" type="button" id="boton3">+</button>
+                                    </div>
+                                </div>
+                                <p class="mt-4">Correa confeccionada con cinta de polipropileno forrado en tela.
+                                    Herrajes de metal.</p>
+                                <p>Talla única de 2.5 cm. de ancho y largo de 1,4 metros.</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Añadir al carrito</button>
+                    <button type="button" class="btn btn-outline-success" data-dismiss="modal">Comprar ahora</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Arnes-->
+    <div class="modal fade" id="modal-arnes">
+        <div class="modal-dialog">
+            <div class="modal-content modal-producto">
+
+                <div class="modal-header">
+                    <h4 class="modal-title">Tu Carrito</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="img/producto10.png" alt="" height="300px">
+                        </div>
+                        <div class="col-sm 6 text-center">
+                            <h3>Arnés pechera rojo</h3>
+                            <h6>$16.490</h6>
+                            <h6 class="mb-2 mt-3">Talla</h6>
+                            <form>
+                                <select name="talla" class="custom-select ">
+                                    <option selected>Seleccionar</option>
+                                    <option value="">XS</option>
+                                    <option value="">S</option>
+                                    <option value="">M</option>
+                                    <option value="">L</option>
+                                </select>
+                                <br>
+                                <h6 class="mb-2 mt-3">Cantidad</h6>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <button class="btn btn-success" type="button" id="boton8">-</button>
+                                    </div>
+                                    <input type="text" id="mostrador4" class="form-control text-center" placeholder="0">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-success" type="button" id="boton7">+</button>
+                                    </div>
+                                </div>
+                                <p class="mt-4">Arnés acolchado color rojo. Tiene dos sistemas de ajuste: velcro y
+                                    hebilla de seguridad.</p>
+                                <p>Tiene dos sistemas de ajuste: velcro y hebilla de seguridad.</p>
+                                <p>Regulable en el cuello y el pecho.</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Añadir al carrito</button>
+                    <button type="button" class="btn btn-outline-success" data-dismiss="modal">Comprar ahora</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        var numero = 0;
+        boton1.onclick = () => {
+            numero++;
+            mostrador.value = numero;
+        }
+
+        var numero2 = 0;
+        boton3.onclick = () => {
+            numero2++;
+            mostrador2.value = numero2;
+        }
+
+        var numero3 = 0;
+        boton5.onclick = () => {
+            numero3++;
+            mostrador3.value = numero3;
+        }
+
+        var numero4 = 0;
+        boton7.onclick = () => {
+            numero4++;
+            mostrador4.value = numero4;
+        }
+    </script>
+
+    <script>
+        boton2.onclick = () => {
+            numero--;
+            mostrador.value = numero;
+        }
+
+        boton4.onclick = () => {
+            numero2--;
+            mostrador2.value = numero2;
+        }
+
+        boton6.onclick = () => {
+            numero3--;
+            mostrador3.value = numero3;
+        }
+
+        boton8.onclick = () => {
+            numero4--;
+            mostrador4.value = numero4;
+        }
+    </script>
+
     <!-- jQuery library -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
 
-<!-- Popper JS -->
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
